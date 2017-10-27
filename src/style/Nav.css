@@ -1,0 +1,20 @@
+.navbar-brand img {
+  padding-right: 5px; }
+
+.navbar {
+  background-color: #2C2E30; }
+  .navbar button {
+    background-color: #00bfff; }
+  .navbar a {
+    color: white; }
+  .navbar a:hover {
+    color: #00bfff; }
+
+@media (min-width: 541px) {
+  /* Big view stuff goes here.*/ }
+
+@media (max-width: 540px) and (min-width: 400px) {
+  /* Smaller view stuff goes here.*/ }
+
+@media (max-width: 399px) {
+  /* Stuff for really small views goes here.*/ }

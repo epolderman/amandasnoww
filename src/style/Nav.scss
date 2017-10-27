@@ -1,0 +1,31 @@
+@import "Colors.scss";
+
+.navbar-brand{
+  img{
+    padding-right: 5px;
+  }
+}
+.navbar{
+
+  background-color: $darkGunmetal;
+
+  button{
+    background-color: $skyblue;
+  }
+  a{
+    color: white;;
+  }
+  a:hover{
+    color: $skyblue;
+  }
+
+}
+@media (min-width: 541px){
+  /* Big view stuff goes here.*/
+}
+@media (max-width: 540px) and (min-width: 400px){
+  /* Smaller view stuff goes here.*/
+}
+@media (max-width: 399px){
+  /* Stuff for really small views goes here.*/
+}

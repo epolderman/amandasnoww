@@ -1,0 +1,65 @@
+@import "Colors.scss";
+
+.Landing {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  padding-right: 10%;
+  padding-left: 10%;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background-color: $darkGunmetal;
+}
+.projects{
+  background-color: $darkGunmetal;
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px;
+}
+
+.projects-item{
+  background-color: $skyblue;
+  color: $darkGunmetal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &.medium{
+    grid-row: span 2;
+    grid-column: span 2;
+  }
+  &.large{
+    grid-row: span 3;
+    grid-column: span 3;
+  }
+  &.large-wide{
+    grid-row: span 3;
+    grid-column: span 4;
+  }
+  &.small{
+    grid-row: span 1;
+    grid-column: span 1;
+  }
+  &.tall{
+    grid-row: span 4;
+    grid-column: span 2;
+  }
+  &.wide{
+    grid-row: span 4;
+    grid-column: span 3;
+  }
+
+
+}
+
+@media (min-width: 541px){
+  /* Big view stuff goes here.*/
+}
+@media (max-width: 540px) and (min-width: 400px){
+  /* Smaller view stuff goes here.*/
+}
+@media (max-width: 399px){
+  /* Stuff for really small views goes here.*/
+}

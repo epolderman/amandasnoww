@@ -1,0 +1,51 @@
+.Landing {
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  padding-right: 10%;
+  padding-left: 10%;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  background-color: #2C2E30; }
+
+.projects {
+  background-color: #2C2E30;
+  display: grid;
+  height: 100%;
+  grid-template-rows: repeat(7, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 10px; }
+
+.projects-item {
+  background-color: #00bfff;
+  color: #2C2E30;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .projects-item.medium {
+    grid-row: span 2;
+    grid-column: span 2; }
+  .projects-item.large {
+    grid-row: span 3;
+    grid-column: span 3; }
+  .projects-item.large-wide {
+    grid-row: span 3;
+    grid-column: span 4; }
+  .projects-item.small {
+    grid-row: span 1;
+    grid-column: span 1; }
+  .projects-item.tall {
+    grid-row: span 4;
+    grid-column: span 2; }
+  .projects-item.wide {
+    grid-row: span 4;
+    grid-column: span 3; }
+
+@media (min-width: 541px) {
+  /* Big view stuff goes here.*/ }
+
+@media (max-width: 540px) and (min-width: 400px) {
+  /* Smaller view stuff goes here.*/ }
+
+@media (max-width: 399px) {
+  /* Stuff for really small views goes here.*/ }
