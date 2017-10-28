@@ -4,6 +4,7 @@ import '../style/App.css';
 import {BrowserRouter, Route} from 'react-router-dom';
 import Landing from './Landing';
 import Navigation from './Navigation';
+import ProjectHub from './ProjectHub';
 
 class App extends Component {
   render() {
@@ -13,6 +14,7 @@ class App extends Component {
           <div>
               <Navigation/>
               <Route exact path="/" component={Landing} />
+              <Route exact path="/:project" component={ProjectHub} />
           </div>
         </BrowserRouter>
       </div>

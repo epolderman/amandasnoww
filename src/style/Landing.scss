@@ -1,65 +1,677 @@
 @import "Colors.scss";
 
-.Landing {
-  padding-top: 2.5%;
-  padding-bottom: 2.5%;
-  padding-right: 10%;
-  padding-left: 10%;
-  height: 100vh;
-  width: 100vw;
-  text-align: center;
-  background-color: $darkGunmetal;
-}
-.projects{
-  background-color: $darkGunmetal;
-  display: grid;
-  height: 100%;
-  grid-template-rows: repeat(7, 1fr);
-  grid-template-columns: repeat(6, 1fr);
-  grid-gap: 10px;
-}
 
-.projects-item{
-  background-color: $skyblue;
-  color: $darkGunmetal;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &.medium{
-    grid-row: span 2;
-    grid-column: span 2;
-  }
-  &.large{
-    grid-row: span 3;
-    grid-column: span 3;
-  }
-  &.large-wide{
-    grid-row: span 3;
-    grid-column: span 4;
-  }
-  &.small{
-    grid-row: span 1;
-    grid-column: span 1;
-  }
-  &.tall{
-    grid-row: span 4;
-    grid-column: span 2;
-  }
-  &.wide{
-    grid-row: span 4;
-    grid-column: span 3;
-  }
-
-
-}
 
 @media (min-width: 541px){
   /* Big view stuff goes here.*/
+  .Landing {
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    padding-right: 10%;
+    padding-left: 10%;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: $darkGunmetal;
+  }
+  .projects{
+    background-color: $darkGunmetal;
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 2%;
+    a {
+      text-decoration: none;
+    }
+
+  }
+  .projects-item{
+    background-color: $skyblue;
+    color: white;
+    display: flex;
+    position: relative;
+    transition: all ease-in-out 500ms;
+
+    img{
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      padding: 10px 10px 10px 10px;
+    }
+    h6 {
+      bottom: 0;
+      left: 5px;;
+      position: absolute;
+    }
+    &.medium{
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    &.wide{
+      grid-row: span 3;
+      grid-column: span 2;
+    }
+    &.swordfish{
+      background-color: rgba(72,61,139,1.0);
+    }
+    &.swordfish:hover{
+      background-color: rgba(72,61,139,0.5);
+      color:white;
+    }
+    &.endless{
+      background-color: rgba(153,50,204,1.0);
+    }
+    &.endless:hover{
+      background-color: rgba(153,50,204,0.5);
+      color:white;
+    }
+    &.mintcushions{
+      background-color: rgba(255,69,0,1.0);
+    }
+    &.mintcushions:hover{
+      background-color: rgba(255,69,0,0.5);
+      color:white;
+    }
+    &.blink{
+      background-color: rgba(100,149,237,1.0);
+    }
+    &.blink:hover{
+      background-color: rgba(100,149,237,0.5);
+      color:white;
+    }
+    &.art3d{
+      background-color: rgba(192, 57, 43,1.0);
+    }
+    &.art3d:hover{
+      background-color: rgba(192, 57, 43,0.5);
+      color:white;
+    }
+    &.art2d{
+      background-color: rgba(22, 160, 133,1.0);
+    }
+    &.art2d:hover{
+      background-color: rgba(22, 160, 133,0.5);
+      color:white;
+    }
+    &.gameworld{
+      background-color: rgba(243, 156, 18,1.0);
+    }
+    &.gameworld:hover{
+      background-color: rgba(243, 156, 18,0.5);
+      color:white;
+    }
+    //rgba(139, 195, 74,1.0)
+    &.armor{
+      background-color: rgba(139, 195, 74,1.0);
+    }
+    &.armor:hover{
+      background-color: rgba(139, 195, 74,0.5);
+      color:white;
+    }
+    &.winter{
+      background-color: rgba(246, 71, 71,1.0);
+    }
+    &.winter:hover{
+      background-color: rgba(246, 71, 71,0.5);
+      color:white;
+    }
+  }
+  .footer{
+    text-align: center;
+    margin: 0 auto;
+    width: 40vw;
+    height: 50vh;
+    background: white;
+    color: $darkGunmetal;
+    margin-bottom: 2%;
+    background-color: $skyblue;
+    position: relative;
+
+    .container{
+      padding-top: 5%;
+      padding-bottom: 5%;
+      background-color: $skyblue;
+      height: 25%;
+      width: 100%;
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+    }
+    .containerImage{
+      height: 75%;
+      width: 100%;
+      overflow: hidden;
+      padding: 1%;
+      background-color: white;
+      svg{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .displayList{
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+      button{
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
+
+.cls1{fill:#fed6cb;}
+.cls10,.cls12,.cls13,.cls2,.cls4,.cls7,.cls8{fill:none;}
+.cls3{fill:#febfae;}
+.cls10,.cls12,.cls14,.cls4,.cls7,.cls8{stroke:#000;}
+.cls10,.cls12,.cls13,.cls14,.cls4,.cls7,.cls8{stroke-miterlimit:10;}
+.cls13,.cls4{stroke-width:8px;}
+.cls5{fill:#fee8e2;}
+.cls6{fill:#f4b4b0;}
+.cls10,.cls12,.cls13,.cls14,.cls7,.cls8{stroke-linecap:round;}
+.cls7{stroke-width:4px;}
+.cls14,.cls8{stroke-width:5px;}
+.cls9{fill:#fff;}
+.cls10{stroke-width:7px;}
+.cls11{fill:#5b3e18;}
+.cls12{stroke-width:6px;}
+.cls13{stroke:#fee8e2;}
+.cls14{fill:#026615;}
+.cls15{fill:#cca16d;}
+.cls16{fill:#7a5022;}
+.cls17{fill:#ad8f65;}
+.cls18{fill:#474642;}
+.cls19{fill:#574943;}
+.cls20{fill:#473b37;}
+.cls21{fill:#47494b;}
+.cls22{fill:#333230;}
+.cls23{fill:#3d3c39;}
+.cls24{fill:#282726;}
+.cls25{fill:#302825;}
+.cls26{fill:#565759;}
+.cls27{fill:#4f4e4a;}
+.cls28{fill:#c19a76;}
+.cls29{fill:#6d583b;}
+.cls30{fill:#8c6e4f;}
+
+.skyrim_helm{
+    opacity: 0;
+}
+.vikingamanda{
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes helmetFlip {
+0% {
+  transform: translateY(-100px);
+  transform: rotate(-45deg);
+  opacity: 0.5
+}
+
+100% {
+  transform: translateY(0px);
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+}
+
+.vikingamanda:hover .skyrim_helm{
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-name: helmetFlip;
+  animation-duration: 1s;
+}
+
+  }
+
 }
 @media (max-width: 540px) and (min-width: 400px){
   /* Smaller view stuff goes here.*/
+  .Landing {
+    padding: 0 0 0 0;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: $darkGunmetal;
+  }
+  .projects{
+    background-color: $darkGunmetal;
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 2%;
+    a {
+      text-decoration: none;
+    }
+
+  }
+  .projects-item{
+    background-color: $skyblue;
+    color: white;
+    display: flex;
+    position: relative;
+    transition: all ease-in-out 500ms;
+
+    img{
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      padding: 30px 30px 30px 30px;
+    }
+    h6 {
+      bottom: 0;
+      left: 5px;;
+      position: absolute;
+    }
+    &.medium{
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    &.wide{
+      grid-row: span 3;
+      grid-column: span 2;
+    }
+    &.swordfish{
+      background-color: rgba(72,61,139,1.0);
+    }
+    &.swordfish:hover{
+      background-color: rgba(72,61,139,0.5);
+      color:white;
+    }
+    &.endless{
+      background-color: rgba(153,50,204,1.0);
+    }
+    &.endless:hover{
+      background-color: rgba(153,50,204,0.5);
+      color:white;
+    }
+    &.mintcushions{
+      background-color: rgba(255,69,0,1.0);
+    }
+    &.mintcushions:hover{
+      background-color: rgba(255,69,0,0.5);
+      color:white;
+    }
+    &.blink{
+      background-color: rgba(100,149,237,1.0);
+    }
+    &.blink:hover{
+      background-color: rgba(100,149,237,0.5);
+      color:white;
+    }
+    &.art3d{
+      background-color: rgba(192, 57, 43,1.0);
+    }
+    &.art3d:hover{
+      background-color: rgba(192, 57, 43,0.5);
+      color:white;
+    }
+    &.art2d{
+      background-color: rgba(22, 160, 133,1.0);
+    }
+    &.art2d:hover{
+      background-color: rgba(22, 160, 133,0.5);
+      color:white;
+    }
+    &.gameworld{
+      background-color: rgba(243, 156, 18,1.0);
+    }
+    &.gameworld:hover{
+      background-color: rgba(243, 156, 18,0.5);
+      color:white;
+    }
+    //rgba(139, 195, 74,1.0)
+    &.armor{
+      background-color: rgba(139, 195, 74,1.0);
+    }
+    &.armor:hover{
+      background-color: rgba(139, 195, 74,0.5);
+      color:white;
+    }
+    &.winter{
+      background-color: rgba(246, 71, 71,1.0);
+    }
+    &.winter:hover{
+      background-color: rgba(246, 71, 71,0.5);
+      color:white;
+    }
+  }
+
+  .footer{
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    background: white;
+    color: $darkGunmetal;
+    margin-bottom: 2%;
+    background-color: $skyblue;
+    position: relative;
+
+    .container{
+      padding-top: 5%;
+      padding-bottom: 5%;
+      background-color: $skyblue;
+      height: 25%;
+      width: 100%;
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+    }
+    .containerImage{
+      height: 75%;
+      width: 100%;
+      overflow: hidden;
+      padding: 1%;
+      background-color: white;
+      svg{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .displayList{
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+
+      button{
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
+
+.cls1{fill:#fed6cb;}
+.cls10,.cls12,.cls13,.cls2,.cls4,.cls7,.cls8{fill:none;}
+.cls3{fill:#febfae;}
+.cls10,.cls12,.cls14,.cls4,.cls7,.cls8{stroke:#000;}
+.cls10,.cls12,.cls13,.cls14,.cls4,.cls7,.cls8{stroke-miterlimit:10;}
+.cls13,.cls4{stroke-width:8px;}
+.cls5{fill:#fee8e2;}
+.cls6{fill:#f4b4b0;}
+.cls10,.cls12,.cls13,.cls14,.cls7,.cls8{stroke-linecap:round;}
+.cls7{stroke-width:4px;}
+.cls14,.cls8{stroke-width:5px;}
+.cls9{fill:#fff;}
+.cls10{stroke-width:7px;}
+.cls11{fill:#5b3e18;}
+.cls12{stroke-width:6px;}
+.cls13{stroke:#fee8e2;}
+.cls14{fill:#026615;}
+.cls15{fill:#cca16d;}
+.cls16{fill:#7a5022;}
+.cls17{fill:#ad8f65;}
+.cls18{fill:#474642;}
+.cls19{fill:#574943;}
+.cls20{fill:#473b37;}
+.cls21{fill:#47494b;}
+.cls22{fill:#333230;}
+.cls23{fill:#3d3c39;}
+.cls24{fill:#282726;}
+.cls25{fill:#302825;}
+.cls26{fill:#565759;}
+.cls27{fill:#4f4e4a;}
+.cls28{fill:#c19a76;}
+.cls29{fill:#6d583b;}
+.cls30{fill:#8c6e4f;}
+
+.skyrim_helm{
+    opacity: 0;
+}
+.vikingamanda{
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes helmetFlip {
+0% {
+  transform: translateY(-100px);
+  transform: rotate(-45deg);
+  opacity: 0.5
+}
+
+100% {
+  transform: translateY(0px);
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+}
+
+.vikingamanda:hover .skyrim_helm{
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-name: helmetFlip;
+  animation-duration: 1s;
+}
+
+  }
+
+
 }
 @media (max-width: 399px){
   /* Stuff for really small views goes here.*/
+  .Landing {
+    padding: 0 0 0 0;
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    background-color: $darkGunmetal;
+  }
+  .projects{
+    background-color: $darkGunmetal;
+    display: grid;
+    height: 100%;
+    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 2%;
+    a {
+      text-decoration: none;
+    }
+
+  }
+  .projects-item{
+    background-color: $skyblue;
+    color: white;
+    display: flex;
+    position: relative;
+    transition: all ease-in-out 500ms;
+
+    img{
+      margin: 0 auto;
+      width: 100%;
+      height: 100%;
+      padding: 30px 30px 30px 30px;
+    }
+    h6 {
+      bottom: 0;
+      left: 5px;;
+      position: absolute;
+    }
+    &.medium{
+      grid-row: span 2;
+      grid-column: span 2;
+    }
+    &.wide{
+      grid-row: span 3;
+      grid-column: span 2;
+    }
+    &.swordfish{
+      background-color: rgba(72,61,139,1.0);
+    }
+    &.swordfish:hover{
+      background-color: rgba(72,61,139,0.5);
+      color:white;
+    }
+    &.endless{
+      background-color: rgba(153,50,204,1.0);
+    }
+    &.endless:hover{
+      background-color: rgba(153,50,204,0.5);
+      color:white;
+    }
+    &.mintcushions{
+      background-color: rgba(255,69,0,1.0);
+    }
+    &.mintcushions:hover{
+      background-color: rgba(255,69,0,0.5);
+      color:white;
+    }
+    &.blink{
+      background-color: rgba(100,149,237,1.0);
+    }
+    &.blink:hover{
+      background-color: rgba(100,149,237,0.5);
+      color:white;
+    }
+    &.art3d{
+      background-color: rgba(192, 57, 43,1.0);
+    }
+    &.art3d:hover{
+      background-color: rgba(192, 57, 43,0.5);
+      color:white;
+    }
+    &.art2d{
+      background-color: rgba(22, 160, 133,1.0);
+    }
+    &.art2d:hover{
+      background-color: rgba(22, 160, 133,0.5);
+      color:white;
+    }
+    &.gameworld{
+      background-color: rgba(243, 156, 18,1.0);
+    }
+    &.gameworld:hover{
+      background-color: rgba(243, 156, 18,0.5);
+      color:white;
+    }
+    //rgba(139, 195, 74,1.0)
+    &.armor{
+      background-color: rgba(139, 195, 74,1.0);
+    }
+    &.armor:hover{
+      background-color: rgba(139, 195, 74,0.5);
+      color:white;
+    }
+    &.winter{
+      background-color: rgba(246, 71, 71,1.0);
+    }
+    &.winter:hover{
+      background-color: rgba(246, 71, 71,0.5);
+      color:white;
+    }
+  }
+
+  .footer{
+    text-align: center;
+    width: 100vw;
+    height: 50vh;
+    background: white;
+    color: $darkGunmetal;
+    margin-bottom: 2%;
+    background-color: $skyblue;
+    position: relative;
+
+    .container{
+      padding-top: 5%;
+      padding-bottom: 5%;
+      background-color: $skyblue;
+      height: 25%;
+      width: 100%;
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+    }
+    .containerImage{
+      height: 75%;
+      width: 100%;
+      overflow: hidden;
+      padding: 1%;
+      background-color: white;
+      svg{
+        height: 100%;
+        width: 100%;
+      }
+    }
+    .displayList{
+      position: absolute;
+      bottom: 5px;
+      left: 5px;
+
+      button{
+        display: block;
+        margin-bottom: 5px;
+      }
+    }
+
+.cls1{fill:#fed6cb;}
+.cls10,.cls12,.cls13,.cls2,.cls4,.cls7,.cls8{fill:none;}
+.cls3{fill:#febfae;}
+.cls10,.cls12,.cls14,.cls4,.cls7,.cls8{stroke:#000;}
+.cls10,.cls12,.cls13,.cls14,.cls4,.cls7,.cls8{stroke-miterlimit:10;}
+.cls13,.cls4{stroke-width:8px;}
+.cls5{fill:#fee8e2;}
+.cls6{fill:#f4b4b0;}
+.cls10,.cls12,.cls13,.cls14,.cls7,.cls8{stroke-linecap:round;}
+.cls7{stroke-width:4px;}
+.cls14,.cls8{stroke-width:5px;}
+.cls9{fill:#fff;}
+.cls10{stroke-width:7px;}
+.cls11{fill:#5b3e18;}
+.cls12{stroke-width:6px;}
+.cls13{stroke:#fee8e2;}
+.cls14{fill:#026615;}
+.cls15{fill:#cca16d;}
+.cls16{fill:#7a5022;}
+.cls17{fill:#ad8f65;}
+.cls18{fill:#474642;}
+.cls19{fill:#574943;}
+.cls20{fill:#473b37;}
+.cls21{fill:#47494b;}
+.cls22{fill:#333230;}
+.cls23{fill:#3d3c39;}
+.cls24{fill:#282726;}
+.cls25{fill:#302825;}
+.cls26{fill:#565759;}
+.cls27{fill:#4f4e4a;}
+.cls28{fill:#c19a76;}
+.cls29{fill:#6d583b;}
+.cls30{fill:#8c6e4f;}
+
+.skyrim_helm{
+    opacity: 0;
+}
+.vikingamanda{
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes helmetFlip {
+0% {
+  transform: translateY(-100px);
+  transform: rotate(-45deg);
+  opacity: 0.5
+}
+
+100% {
+  transform: translateY(0px);
+  transform: rotate(0deg);
+  opacity: 1.0;
+}
+}
+
+.vikingamanda:hover .skyrim_helm{
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+  animation-name: helmetFlip;
+  animation-duration: 1s;
+}
+
+  }
+
+
 }
