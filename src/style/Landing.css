@@ -231,26 +231,23 @@
   /* Smaller view stuff goes here.*/
   .Landing {
     padding: 0 0 0 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     text-align: center;
     background-color: #2C2E30; }
   .projects {
     background-color: #2C2E30;
-    display: grid;
     height: 100%;
-    grid-template-rows: repeat(7, 1fr);
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
     margin-bottom: 2%; }
     .projects a {
       text-decoration: none; }
   .projects-item {
     background-color: #00bfff;
     color: white;
-    display: flex;
+    display: block;
     position: relative;
-    transition: all ease-in-out 500ms; }
+    transition: all ease-in-out 500ms;
+    height: 150px; }
     .projects-item img {
       margin: 0 auto;
       width: 100%;
@@ -313,13 +310,14 @@
       color: white; }
   .footer {
     text-align: center;
-    width: 100vw;
-    height: 50vh;
     background: white;
     color: #2C2E30;
     margin-bottom: 2%;
     background-color: #00bfff;
-    position: relative; }
+    position: relative;
+    height: 150px;
+    width: 100%;
+    display: block; }
     .footer .container {
       padding-top: 5%;
       padding-bottom: 5%;
@@ -456,26 +454,23 @@
   /* Stuff for really small views goes here.*/
   .Landing {
     padding: 0 0 0 0;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
     text-align: center;
     background-color: #2C2E30; }
   .projects {
     background-color: #2C2E30;
-    display: grid;
     height: 100%;
-    grid-template-rows: repeat(7, 1fr);
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 10px;
     margin-bottom: 2%; }
     .projects a {
       text-decoration: none; }
   .projects-item {
     background-color: #00bfff;
     color: white;
-    display: flex;
+    display: block;
     position: relative;
-    transition: all ease-in-out 500ms; }
+    transition: all ease-in-out 500ms;
+    height: 150px; }
     .projects-item img {
       margin: 0 auto;
       width: 100%;
@@ -538,13 +533,13 @@
       color: white; }
   .footer {
     text-align: center;
-    width: 100vw;
-    height: 50vh;
     background: white;
     color: #2C2E30;
     margin-bottom: 2%;
     background-color: #00bfff;
-    position: relative; }
+    position: relative;
+    height: 150px;
+    width: 100%; }
     .footer .container {
       padding-top: 5%;
       padding-bottom: 5%;
