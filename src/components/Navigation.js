@@ -23,22 +23,15 @@ export default class Navigation extends Component{
 
             <li className="nav-item"><a className="nav-link"
             data-toggle="tooltip"
-            title="3D Modeling Modeling Modelers :)"
+            title="Linked In"
             data-placement="auto"
-            href="/3D">3D Modeling</a></li>
+            href="https://www.linkedin.com/in/amandasnoww/"><span className="fa fa-linkedin fa-lg" aria-hidden="true"></span></a></li>
 
             <li className="nav-item"><a className="nav-link"
             data-toggle="tooltip"
-            title="Graphic Design Art for Web Apps"
+            title="Twitter"
             data-placement="auto"
-            href="/graphicdesign">Graphic Design</a></li>
-
-            <li className="nav-item">
-            <a className="nav-link"
-            data-toggle="tooltip"
-            title="User Inteface Game Art"
-            data-placement="auto"
-            href="/uiart">UI Art</a></li>
+            href="https://twitter.com/amandasaenz"><span className="fa fa-twitter fa-lg" aria-hidden="true"></span></a></li>
 
             <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle"  data-toggle="dropdown"

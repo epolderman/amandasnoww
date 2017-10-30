@@ -4,15 +4,13 @@ import '../style/Landing.css';
 import VikingAmanda from './VikingAmanda';
 
 
-export default class Landing extends Component {
+export default (props) => {
 
-
-  render(){
     return(
           <div className="Landing">
             <div className="projects">
               <Link className="projects-item medium endless" to={'/endless'}>
-                  <img src={require('../Assets/electric.svg')} alt={"endless"}/>
+                  <img src={require('../Assets/endlessIcon1.svg')} alt={"endless"}/>
                   <h6>endless</h6>
               </Link>
               <Link className="projects-item wide swordfish" to={'/swordfishspacesystems'}>
@@ -67,7 +65,5 @@ export default class Landing extends Component {
                 </div>
             </div>
           </div>);
-  }
-
 
 }
