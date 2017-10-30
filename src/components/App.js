@@ -14,7 +14,7 @@ class App extends Component {
           <div>
               <Navigation/>
               <Route exact path="/" component={Landing} />
-              <Route exact path="/:project" component={ProjectHub} />
+              <Route exact path="/:projectname" component={ProjectHub} />
           </div>
         </BrowserRouter>
       </div>

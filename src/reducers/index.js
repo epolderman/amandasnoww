@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
-import commentsReducer from './comments';
+import projectsReducer from './projectsReducer';
+import activeprojectReducer from './activeprojectReducer';
 
 const rootReducer = combineReducers({
-  comments: commentsReducer
+  projects: projectsReducer,
+  activeProject: activeprojectReducer
 });
 
 export default rootReducer;

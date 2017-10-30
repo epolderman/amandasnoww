@@ -1,7 +1,5 @@
 @import "Colors.scss";
 
-
-
 @media (min-width: 541px){
   /* Big view stuff goes here.*/
   .Landing {
@@ -125,7 +123,7 @@
     height: 50vh;
     background: white;
     color: $darkGunmetal;
-    margin-bottom: 2%;
+    margin-bottom: 5%;
     background-color: $skyblue;
     position: relative;
 
@@ -145,7 +143,7 @@
       width: 100%;
       overflow: hidden;
       padding: 1%;
-      background-color: white;
+      background-color: $darkGunmetalLight;
       svg{
         height: 100%;
         width: 100%;
@@ -155,10 +153,34 @@
       position: absolute;
       bottom: 5px;
       left: 5px;
-      button{
+      a{
         display: block;
         margin-bottom: 5px;
+        color: $skyblue;
+        background-color: $darkGunmetal;
       }
+      a:hover{
+        color: $darkPurple;
+      }
+    }
+    .poweredBy{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      text-align: center;
+      margin: 0 auto;
+      width: 20vw;
+      height: 10vh;
+      background: $darkGunmetal;
+      img{
+        width: 50%;
+        height: 100%;
+      }
+    }
+    .poweredContainer{
+      height: 100%;
+      width: 100%;
+      padding-top: 5%;
+      padding-bottom: 5%;
     }
 
 .cls1{fill:#fed6cb;}
@@ -367,7 +389,7 @@
       width: 100%;
       overflow: hidden;
       padding: 1%;
-      background-color: white;
+      background-color: $darkGunmetalLight;
       svg{
         height: 100%;
         width: 100%;
@@ -378,10 +400,34 @@
       bottom: 5px;
       left: 5px;
 
-      button{
+      a{
         display: block;
         margin-bottom: 5px;
+        color: $skyblue;
+        background-color: $darkGunmetal;
       }
+      a:hover{
+        color: $darkPurple;
+      }
+    }
+    .poweredBy{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      text-align: center;
+      margin: 0 auto;
+      width: 20vw;
+      height: 10vh;
+      background: $darkGunmetal;
+      img{
+        width: 50%;
+        height: 100%;
+      }
+    }
+    .poweredContainer{
+      height: 100%;
+      width: 100%;
+      padding-top: 5%;
+      padding-bottom: 5%;
     }
 
 .cls1{fill:#fed6cb;}
@@ -591,7 +637,7 @@
       width: 100%;
       overflow: hidden;
       padding: 1%;
-      background-color: white;
+      background-color: $darkGunmetalLight;
       svg{
         height: 100%;
         width: 100%;
@@ -602,10 +648,31 @@
       bottom: 5px;
       left: 5px;
 
-      button{
+      a{
         display: block;
         margin-bottom: 5px;
+        color: $skyblue;
+        background-color: $darkGunmetal;
       }
+    }
+    .poweredBy{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      text-align: center;
+      margin: 0 auto;
+      width: 20vw;
+      height: 10vh;
+      background: $darkGunmetal;
+      img{
+        width: 50%;
+        height: 100%;
+      }
+    }
+    .poweredContainer{
+      height: 100%;
+      width: 100%;
+      padding-top: 5%;
+      padding-bottom: 5%;
     }
 
 .cls1{fill:#fed6cb;}

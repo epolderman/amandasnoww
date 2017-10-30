@@ -44,12 +44,15 @@ export default class Navigation extends Component{
             <a className="nav-link dropdown-toggle"  data-toggle="dropdown"
             href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
             <div className="dropdown-menu dropdown-menu-right" style={{backgroundColor: '#2C2E30'}}>
-            <a className="dropdown-item" href="/boots/Nike">Endless [UI Art]</a>
-            <a className="dropdown-item" href="/boots/Adidas">Armor Index [Graphic Design]</a>
-            <a className="dropdown-item" href="/boots/Puma">Blinks PB&J [2D Game Art]</a>
-            <a className="dropdown-item" href="/boots/UnderArmour">Swordfish Space Systems [3D Modeling]</a>
-            <a className="dropdown-item" href="/boots/NewBalance">Winter Soldier [UI Art]</a>
-            <a className="dropdown-item" href="/boots/Hummel">Game World [3D Modeling]</a>
+            <a className="dropdown-item" href="/endless">Endless [UI Art]</a>
+            <a className="dropdown-item" href="/armorindex">Armor Index [Graphic Design Art]</a>
+            <a className="dropdown-item" href="/mintcushions">Mintcushions [Graphics Design Art]</a>
+            <a className="dropdown-item" href="/blinkspbj">Blinks PB&J [2D Game Art]</a>
+            <a className="dropdown-item" href="/swordfishspacesystems">Swordfish Space Systems [3D Modeling]</a>
+            <a className="dropdown-item" href="/wintersoldier">Winter Soldier [UI Art]</a>
+            <a className="dropdown-item" href="/gameworld">Game World [3D Modeling]</a>
+            <a className="dropdown-item" href="/findingscott">Finding Scott [2D UI/Game Art]</a>
+            <a className="dropdown-item" href="/miscellaneous">Miscellaneous [Random Art]</a>
             </div>
             </li>
       </ul>
@@ -59,7 +62,7 @@ export default class Navigation extends Component{
   render(){
 
       return(
-        <nav className="navbar navbar-toggleable-md navbar-expand-md">
+        <nav className="navbar navbar-toggleable-md navbar-expand-md sticky-top">
          <Link className="navbar-brand" to={'/'}>
          <img src={require('../Assets/electric.svg')} width="32.5" height="32.5" className="d-inline-block align-top" alt=""/>
           amanda saenz
