@@ -5,12 +5,3 @@ html, body, #root {
   padding: 0;
   font-family: Roboto;
   background-color: #2C2E30; }
-
-@media (min-width: 541px) {
-  /* Big view stuff goes here.*/ }
-
-@media (max-width: 540px) and (min-width: 400px) {
-  /* Smaller view stuff goes here.*/ }
-
-@media (max-width: 399px) {
-  /* Stuff for really small views goes here.*/ }

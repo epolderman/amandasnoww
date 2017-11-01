@@ -1,5 +1,6 @@
 @import "Colors.scss";
 
+
 html, body, #root
 {
   height:100%;
@@ -8,14 +9,4 @@ html, body, #root
   padding: 0;
   font-family: $robot;
   background-color: $darkGunmetal;
-}
-
-@media (min-width: 541px){
-  /* Big view stuff goes here.*/
-}
-@media (max-width: 540px) and (min-width: 400px){
-  /* Smaller view stuff goes here.*/
-}
-@media (max-width: 399px){
-  /* Stuff for really small views goes here.*/
 }

@@ -10,125 +10,79 @@
 .fingerhover {
   cursor: pointer; }
 
-@media (min-width: 541px) {
-  .ProjectHub {
-    width: 100%;
-    height: 100%;
-    background-color: white;
-    padding: 5% 5% 5% 5%; }
-  .ProjectDescription {
-    width: 100%;
-    height: 25%;
-    text-align: center;
-    background-color: rgba(44, 62, 80, 0.8);
-    color: white;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    border-radius: 3px; }
-    .ProjectDescription h3 {
-      padding-top: 1%; }
-  .ProjectDemo {
-    width: 50%;
-    height: 350px;
-    text-align: center;
-    margin: 0 auto;
-    padding-bottom: 1%; }
-  .ProjectImageDisplay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(44, 62, 80, 0.8);
-    top: 0;
-    left: 0;
-    z-index: 1000; }
-    .ProjectImageDisplay button {
-      position: fixed;
-      bottom: 5px;
-      right: 5px;
-      color: #00bfff;
-      background-color: #2C2E30; }
-    .ProjectImageDisplay button:hover {
-      color: darkorchid; }
-  .imageDisplay {
-    width: 100%;
-    height: 100%; }
-  .list-group-item {
-    background-color: white; } }
+.ProjectHub {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 5% 5% 5% 5%; }
+  @media (max-width: 540px) and (min-width: 400px) {
+    .ProjectHub {
+      padding: 0 0 0 0; } }
+  @media (max-width: 399px) {
+    .ProjectHub {
+      padding: 0 0 0 0; } }
 
-@media (max-width: 540px) and (min-width: 400px) {
-  .ProjectHub {
-    width: 100%;
-    height: 100%;
-    background-color: white; }
-  .ProjectDescription {
-    width: 100%;
-    height: 25%;
-    text-align: center;
-    background-color: rgba(44, 62, 80, 0.8);
-    color: white; }
-    .ProjectDescription h3 {
-      padding-top: 1%; }
-  .ProjectDemo {
-    width: 100%;
-    height: 300px;
-    text-align: center; }
-  .ProjectImageDisplay {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(44, 62, 80, 0.8);
-    top: 0;
-    left: 0;
-    z-index: 1000; }
-    .ProjectImageDisplay button {
-      position: fixed;
-      bottom: 5px;
-      right: 5px;
-      color: #00bfff;
-      background-color: #2C2E30; }
-    .ProjectImageDisplay button:hover {
-      color: darkorchid; }
-  .imageDisplay {
-    width: 100%;
-    height: 100%; }
-  .list-group-item {
-    background-color: white; } }
+.ProjectDescription {
+  width: 100%;
+  height: 25%;
+  text-align: center;
+  background-color: rgba(44, 62, 80, 0.8);
+  color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px; }
+  .ProjectDescription h3 {
+    padding-top: 1%; }
+  @media (max-width: 540px) and (min-width: 400px) {
+    .ProjectDescription {
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px; } }
+  @media (max-width: 399px) {
+    .ProjectDescription {
+      border-radius: 0px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px; } }
 
-@media (max-width: 399px) {
-  .ProjectHub {
-    width: 100%;
-    height: 100%;
-    background-color: white; }
-  .ProjectDescription {
-    width: 100%;
-    height: 25%;
-    text-align: center;
-    background-color: rgba(44, 62, 80, 0.8);
-    color: white; }
-    .ProjectDescription h3 {
-      padding-top: 1%; }
-  .ProjectDemo {
-    width: 100%;
-    height: 300px;
-    text-align: center; }
-  .ProjectImageDisplay {
+.ProjectDemo {
+  width: 50%;
+  height: 350px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 1%; }
+  @media (max-width: 540px) and (min-width: 400px) {
+    .ProjectDemo {
+      width: 100%;
+      height: 300px;
+      text-align: center;
+      padding-bottom: 0; } }
+  @media (max-width: 399px) {
+    .ProjectDemo {
+      width: 100%;
+      height: 300px;
+      text-align: center;
+      padding-bottom: 0; } }
+
+.ProjectImageDisplay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(44, 62, 80, 0.8);
+  top: 0;
+  left: 0;
+  z-index: 1000; }
+  .ProjectImageDisplay button {
     position: fixed;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(44, 62, 80, 0.8);
-    top: 0;
-    left: 0;
-    z-index: 1000; }
-    .ProjectImageDisplay button {
-      position: fixed;
-      bottom: 5px;
-      right: 5px;
-      color: #00bfff;
-      background-color: #2C2E30; }
-    .ProjectImageDisplay button:hover {
-      color: darkorchid; }
-  .imageDisplay {
-    width: 100%;
-    height: 100%; }
-  .list-group-item {
-    background-color: white; } }
+    bottom: 5px;
+    right: 5px;
+    color: #00bfff;
+    background-color: #2C2E30; }
+  .ProjectImageDisplay button:hover {
+    color: darkorchid; }
+
+.imageDisplay {
+  width: 100%;
+  height: 100%; }
+
+.list-group-item {
+  background-color: white; }
