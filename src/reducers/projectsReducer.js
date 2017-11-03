@@ -41,7 +41,7 @@ export default function(){
               programming: false,
               repository: 'empty'},
     findingscott: {projectName: "Finding Scott",
-              imageList: ['idleAnimation_nxpcfo','runningAnimation_vz1rhs'],
+              imageList: ['idleAnimation_nxpcfo','runningAnimation_tbzzfv'],
               description: "2D Unity Platformer Game",
               demoURL: 'none',
               programming: false,
