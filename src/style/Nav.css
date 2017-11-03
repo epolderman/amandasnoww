@@ -1,14 +1,26 @@
+.nobullets {
+  list-style-type: none; }
+
+.textaligncenter {
+  text-align: center; }
+
+.dissapear {
+  display: none; }
+
+.fingerhover {
+  cursor: pointer; }
+
 .navbar-brand img {
   padding-right: 5px; }
 
 .navbar {
   background-color: #2C2E30; }
   .navbar button {
-    background-color: #00bfff; }
+    background-color: #ff9dab; }
   .navbar a {
     color: white; }
   .navbar a:hover {
-    color: #00bfff; }
+    color: #ff9dab; }
 
 @media (min-width: 541px) {
   /* Big view stuff goes here.*/ }

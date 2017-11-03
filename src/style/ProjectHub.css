@@ -65,17 +65,29 @@
 
 .ProjectImageDisplay {
   position: fixed;
-  width: 100%;
+  width: 50%;
   height: 100%;
+  padding: 5% 5% 5% 5%;
   background-color: rgba(44, 62, 80, 0.8);
-  top: 0;
-  left: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   z-index: 1000; }
+  @media (max-width: 540px) and (min-width: 400px) {
+    .ProjectImageDisplay {
+      padding: 5% 5% 5% 5%;
+      width: 100%;
+      height: 100%; } }
+  @media (max-width: 399px) {
+    .ProjectImageDisplay {
+      padding: 5% 5% 5% 5%;
+      width: 100%;
+      height: 100%; } }
   .ProjectImageDisplay button {
     position: fixed;
     bottom: 5px;
     right: 5px;
-    color: #00bfff;
+    color: #ff9dab;
     background-color: #2C2E30; }
   .ProjectImageDisplay button:hover {
     color: darkorchid; }

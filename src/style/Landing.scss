@@ -40,9 +40,8 @@
     }
   }
   .projects-item{
-    background-color: $skyblue;
+    background-color: $skypink;
     color: white;
-    display: flex;
     position: relative;
     transition: all ease-in-out 500ms;
 
@@ -156,7 +155,7 @@
     background: white;
     color: $darkGunmetal;
     margin-bottom: 5%;
-    background-color: $skyblue;
+    background-color: $skypink;
     position: relative;
 
     @include media("(max-width: 540px) and (min-width: 400px)"){
@@ -186,7 +185,7 @@
     .container{
       padding-top: 5%;
       padding-bottom: 5%;
-      background-color: $skyblue;
+      background-color: $skypink;
       height: 25%;
       width: 100%;
       display: flex;
@@ -212,7 +211,7 @@
       a{
         display: block;
         margin-bottom: 5px;
-        color: $skyblue;
+        color: $skypink;
         background-color: $darkGunmetal;
       }
       a:hover{

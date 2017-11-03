@@ -24,9 +24,9 @@ class ProjectHub extends Component{
   renderImages(){
     return this.props.activeproject.imageList.map(image => {
       return(
-        <li className="list-group-item list-group-item-secondary fingerhover"
-            key={image} onClick={() => this.imageOpen("map_edr8vv")}>
-            <Image cloudName="amandabaenz" publicId="map_edr8vv" width="50%"/>
+        <li className='list-group-item list-group-item-secondary fingerhover'
+            key={image} onClick={() => this.imageOpen(image)}>
+            <Image cloudName="amandabaenz" publicId={image} width="25%"/>
         </li>
       );
     });
@@ -49,7 +49,8 @@ class ProjectHub extends Component{
                  position="relative"
                  width="100%"
                  height="100%"
-                 allowFullScreen/> : <Image cloudName="amandabaenz" publicId="map_edr8vv"  width="75%" />}
+                 allowFullScreen/> : <Image cloudName="amandabaenz" publicId={activeproject.imageList[0]}  width="75%" />}
+                 {activeproject.programming ? <a href={activeproject.repository}>GitHub Repo</a> : <div></div>}
                </div>
           </div>
           <div className="ProjectBody">

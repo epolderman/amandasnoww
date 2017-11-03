@@ -61,18 +61,31 @@
   }
   .ProjectImageDisplay{
     position: fixed;
-    width: 100%;
+    width: 50%;
     height: 100%;
+    padding: 5% 5% 5% 5%;
     background-color: $wolfColor;
-    top:0;
-    left:0;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
     z-index:1000;
+
+    @include media("(max-width: 540px) and (min-width: 400px)"){
+      padding: 5% 5% 5% 5%;
+      width: 100%;
+      height: 100%;
+    }
+    @include media("(max-width: 399px)"){
+      padding: 5% 5% 5% 5%;
+      width: 100%;
+      height: 100%;
+    }
 
     button{
       position: fixed;
       bottom: 5px;
       right: 5px;
-      color: $skyblue;
+      color: $skypink;
       background-color: $darkGunmetal;
     }
     button:hover{

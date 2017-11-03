@@ -48,9 +48,8 @@
       display: block; } }
 
 .projects-item {
-  background-color: #00bfff;
+  background-color: #ff9dab;
   color: white;
-  display: flex;
   position: relative;
   transition: all ease-in-out 500ms; }
   @media (max-width: 540px) and (min-width: 400px) {
@@ -136,7 +135,7 @@
   background: white;
   color: #2C2E30;
   margin-bottom: 5%;
-  background-color: #00bfff;
+  background-color: #ff9dab;
   position: relative; }
   @media (max-width: 540px) and (min-width: 400px) {
     .footer {
@@ -162,7 +161,7 @@
 .container {
   padding-top: 5%;
   padding-bottom: 5%;
-  background-color: #00bfff;
+  background-color: #ff9dab;
   height: 25%;
   width: 100%;
   display: flex;
@@ -187,7 +186,7 @@
   .displayList a {
     display: block;
     margin-bottom: 5px;
-    color: #00bfff;
+    color: #ff9dab;
     background-color: #2C2E30; }
   .displayList a:hover {
     color: darkorchid; }

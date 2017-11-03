@@ -19,7 +19,7 @@ export default class Navigation extends Component{
 
   renderContent(){
     return(
-      <ul className="navbar-nav ml-auto" style={{listStyle: 'none'}}>
+      <ul className="navbar-nav ml-auto nobullets">
 
             <li className="nav-item"><a className="nav-link"
             data-toggle="tooltip"
@@ -46,7 +46,7 @@ export default class Navigation extends Component{
             <a className="dropdown-item" href="/endless">Endless [UI Art]</a>
             <a className="dropdown-item" href="/armorindex">Armor Index [Graphic Design Art]</a>
             <a className="dropdown-item" href="/mintcushions">Mintcushions [Graphics Design Art]</a>
-            <a className="dropdown-item" href="/blinkspbj">Blinks PB&J [2D Game Art]</a>
+            <a className="dropdown-item" href="/blinkspbj">Blinks PB&J [Game Programming]</a>
             <a className="dropdown-item" href="/swordfishspacesystems">Swordfish Space Systems [3D Modeling]</a>
             <a className="dropdown-item" href="/wintersoldier">Winter Soldier [UI Art]</a>
             <a className="dropdown-item" href="/gameworld">Game World [3D Modeling]</a>
