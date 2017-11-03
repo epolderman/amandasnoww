@@ -1,11 +1,11 @@
 Frontend Web App <br/>
 Engineer: www.eriksnoww.com<br/>
 Graphic Design Artist: www.amandabaenz.com<br/>
-Frontend: React<br/>
+Frontend: React, Bootstrap, React-Cloudinary<br/>
 Global Application State: Redux<br/>
 Pre-Processor: Sass<br/>
 
-<b>package.json</b>
+<b>package.json</br>
 "dependencies": { <br/>
   "bootstrap": "^4.0.0-beta.2", <br/>
   "cloudinary-react": "^1.0.4", <br/>
