@@ -49,8 +49,6 @@
     overflow: hidden;
     justify-content: center;
     align-items: center;
-    min-width: 0;
-    min-height: 0;
 
     @include media("(max-width: 540px) and (min-width: 400px)"){
         display:block;
@@ -70,14 +68,14 @@
 
       @include media("(max-width: 540px) and (min-width: 400px)"){
           flex: none;
-          object-fit: none;
+          object-fit: contain;
           height: 100%;
           width: 100%;
           padding: 30px 30px 30px 30px;
       }
         @include media("(max-width: 399px)"){
           flex: none;
-          object-fit: none;
+          object-fit: contain;
           height: 100%;
           width: 100%;
           padding: 30px 30px 30px 30px;
