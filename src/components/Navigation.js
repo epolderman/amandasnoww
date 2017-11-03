@@ -33,6 +33,12 @@ export default class Navigation extends Component{
             data-placement="auto"
             href="https://twitter.com/amandasaenz"><span className="fa fa-twitter fa-lg" aria-hidden="true"></span></a></li>
 
+            <li className="nav-item"><a className="nav-link"
+            data-toggle="tooltip"
+            title="Source"
+            data-placement="auto"
+            href="https://github.com/ezetreezy/amandasnoww">Source</a></li>
+
             <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle"  data-toggle="dropdown"
             href="#" role="button" aria-haspopup="true" aria-expanded="false">Projects</a>
