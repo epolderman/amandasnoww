@@ -50,6 +50,8 @@
 .projects-item {
   background-color: #ff9dab;
   color: white;
+  display: flex;
+  display: -webkit-flex;
   position: relative;
   transition: all ease-in-out 500ms; }
   @media (max-width: 540px) and (min-width: 400px) {

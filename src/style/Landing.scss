@@ -42,6 +42,8 @@
   .projects-item{
     background-color: $skypink;
     color: white;
+    display: flex;
+    display: -webkit-flex;
     position: relative;
     transition: all ease-in-out 500ms;
 

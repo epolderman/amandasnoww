@@ -35,7 +35,7 @@ export default function(){
               programming: false,
               repository: 'empty'},
     gameworld: {projectName: "Game World",
-              imageList: ['gameworld.jpg'],
+              imageList: ['1_hzxuhh','2_vh1ety','3_cj1mkx','4_svzcdd'],
               description: "Computer Graphics Application",
               demoURL: 'https://www.youtube.com/embed/VQ3e0xYQzr8',
               programming: false,
