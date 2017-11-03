@@ -63,7 +63,7 @@ export default class Navigation extends Component{
       return(
         <nav className="navbar navbar-toggleable-md navbar-expand-md sticky-top">
          <Link className="navbar-brand" to={'/'}>
-         <img src={require('../Assets/electric.svg')} width="32.5" height="32.5" className="d-inline-block align-top" alt=""/>
+         <img src={require('../Assets/health.svg')} width="32.5" height="32.5" className="d-inline-block align-top" alt=""/>
           amanda saenz
           </Link>
 

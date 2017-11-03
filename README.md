@@ -19,4 +19,4 @@ Pre-Processor: Sass<br/>
   "react-router-dom": "^4.2.2", <br/>
   "react-scripts": "1.0.14", <br/>
   "redux": "^3.7.2"<br/>
-}, <br/>
+}, </b><br/>

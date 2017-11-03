@@ -10,7 +10,7 @@ export default (props) => {
           <div className="Landing">
             <div className="projects">
               <Link className="projects-item medium endless" to={'/endless'}>
-                  <img src={require('../Assets/endlessIcon1.svg')} alt={"endless"}/>
+                  <img src={require('../Assets/Endless_icon.svg')} alt={"endless"}/>
                   <h6>endless</h6>
               </Link>
               <Link className="projects-item wide swordfish" to={'/swordfishspacesystems'}>
