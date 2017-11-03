@@ -71,16 +71,16 @@
       @include media("(max-width: 540px) and (min-width: 400px)"){
           flex: none;
           object-fit: none;
-          height: 50%;
-          width: 50%;
-          padding: 5px 5px 5px 5px;
+          height: 100%;
+          width: 100%;
+          padding: 30px 30px 30px 30px;
       }
         @include media("(max-width: 399px)"){
           flex: none;
           object-fit: none;
-          height: 50%;
-          width: 50%;
-          padding: 5px 5px 5px 5px;
+          height: 100%;
+          width: 100%;
+          padding: 30px 30px 30px 30px;
       }
     }
     h6 {
