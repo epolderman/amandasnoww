@@ -22,19 +22,8 @@
     "start-js": "react-scripts start",
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
-    "test": "SET NODE_ENV=development; mocha --compilers js:babel-core/register --require ./test/test_helper.js --recursive ./test",
     "test:watch": "npm run test -- --watch",
     "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-react-app": "^3.0.3",
-    "chai": "^4.1.2",
-    "chai-jquery": "^2.0.0",
-    "jquery": "^3.2.1",
-    "jsdom": "^11.3.0",
-    "mocha": "^4.0.1",
-    "react-addons-test-utils": "^15.6.2"
-  }
+  "devDependencies": {}
 }
